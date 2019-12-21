@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         progressBar.setScaleY(7f);
         progressAnimation();
         logoAnimation();
+
     }
     //Progress Bar ANIMATION CREATE AND PLAY
     public void progressAnimation(){

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AltinPetek</string>
+    <string name="credits">YAPIMCILAR</string>
+    <string name="exit">ÇIKIŞ</string>
+    <string name="options">AYARLAR</string>
+    <string name="start">BAŞLA</string>
+</resources>

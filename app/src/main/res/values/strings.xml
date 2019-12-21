@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AltinPetek</string>
+    <string name="start">START</string>
+    <string name="options">OPTIONS</string>
+    <string name="credits">CREDITS</string>
+    <string name="exit">EXIT</string>
 </resources>

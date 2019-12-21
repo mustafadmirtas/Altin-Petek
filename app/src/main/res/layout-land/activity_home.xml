@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#103992"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/petek1"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/options_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/petek1"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <ImageView
+        android:id="@+id/credits_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/petek1"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/petek1"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/aldrich"
+        android:text="ALTIN PETEK"
+        android:textAlignment="center"
+        android:textColor="#E29D09"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="74dp" />
+</RelativeLayout>

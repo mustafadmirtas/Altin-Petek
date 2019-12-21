@@ -1,5 +1,6 @@
 package com.ftmgroup.altinpetek;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.animation.Animation;
@@ -14,6 +15,7 @@ public class ProgressBarAnimation extends Animation {
     private TextView textView;
     private float from;
     private float to;
+    private boolean isOpened = false;
     //PROGRESS BAR CLASS CONSTRUCTER
     public ProgressBarAnimation(Context context, ProgressBar progressBar, TextView textView, float from, float to){
         this.context = context;
@@ -30,8 +32,11 @@ public class ProgressBarAnimation extends Animation {
         progressBar.setProgress((int) value);
         textView.setText((int)value + " %");
 
-        if(value == to){
+        if(value == to && isOpened == false){
+            //This Code for Close main activity and Open Home Activity only ONCE! BOOL THERE FOR ONCE. If you delete BOOL isOpened it opens twice
             context.startActivity(new Intent(context,HomeActivity.class));
+            ((Activity)context).finish();
+            isOpened = true;
         }
     }
 

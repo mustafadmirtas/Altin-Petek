@@ -7,50 +7,70 @@
     android:background="#103992"
     tools:context=".HomeActivity">
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView7"
-        android:layout_marginEnd="-50dp"
-        android:layout_marginBottom="-27dp"
-        android:layout_toStartOf="@+id/imageView6"
-        app:srcCompat="@drawable/petek1"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="137dp" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView7"
-        android:layout_alignEnd="@+id/imageView7"
-        android:layout_marginEnd="-151dp"
-        android:layout_marginBottom="-110dp"
-        app:srcCompat="@drawable/petek1"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="223dp" />
-
-    <ImageView
-        android:id="@+id/imageView7"
+    <Button
+        android:id="@+id/credits_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-49dp"
+        android:layout_marginEnd="-48dp"
         android:layout_marginBottom="171dp"
-        android:layout_toStartOf="@+id/imageView8"
+        android:layout_toStartOf="@+id/exit_button"
+        android:background="@drawable/petek1"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/credits"
+        android:textColor="#1B3EB3"
+        android:textSize="20sp"
         app:srcCompat="@drawable/petek1"
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="312dp" />
 
-    <ImageView
-        android:id="@+id/imageView8"
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/credits_button"
+        android:layout_marginEnd="-47dp"
+        android:layout_marginBottom="-26dp"
+        android:layout_toStartOf="@+id/options_button"
+        android:background="@drawable/petek1"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/start"
+        android:textColor="#1B3EB3"
+        android:textSize="20sp"
+        app:srcCompat="@drawable/petek1"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <Button
+        android:id="@+id/options_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/credits_button"
+        android:layout_alignEnd="@+id/credits_button"
+        android:layout_marginEnd="-151dp"
+        android:layout_marginBottom="-110dp"
+        android:background="@drawable/petek1"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/options"
+        android:textColor="#1B3EB3"
+        android:textSize="20sp"
+        app:srcCompat="@drawable/petek1"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <Button
+        android:id="@+id/exit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="39dp"
+        android:layout_marginEnd="37dp"
         android:layout_marginBottom="86dp"
+        android:background="@drawable/petek1"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/exit"
+        android:textColor="#1B3EB3"
+        android:textSize="20sp"
         app:srcCompat="@drawable/petek1"
         tools:layout_editor_absoluteX="186dp"
         tools:layout_editor_absoluteY="398dp" />
@@ -59,7 +79,7 @@
         android:id="@+id/textView2"
         android:layout_width="348dp"
         android:layout_height="63dp"
-        android:layout_above="@+id/imageView4"
+        android:layout_above="@+id/start_button"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="7dp"
