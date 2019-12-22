@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CreditsActivity"></activity>
+        <activity android:name=".QuestionActivity"></activity>
+        <activity android:name=".CreditsActivity" />
         <activity android:name=".OptionsActivity" />
         <activity android:name=".MainGame" />
         <activity android:name=".HelperActivity" />

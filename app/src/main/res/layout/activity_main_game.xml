@@ -16,6 +16,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/bluepetek"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="1"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -27,8 +28,10 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="104dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="3"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,12 +40,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/button7"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="192dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="7"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,12 +56,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/button12"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="280dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="12"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,12 +72,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/button17"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="368dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="17"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -79,12 +88,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button26"
+        android:id="@+id/button22"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="452dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="22"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -93,12 +104,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/button27"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="536dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="27"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -107,12 +120,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/button4"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="60dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="4"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -121,12 +136,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/button8"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="148dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="8"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -135,12 +152,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/button13"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="236dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="13"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -153,8 +172,10 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="324dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="18"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -163,12 +184,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/button23"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="412dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="23"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -177,12 +200,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/button28"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="496dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="28"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -191,12 +216,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button9"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="104dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="9"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -205,26 +232,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button14"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="192dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#B1A11E"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.98"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="280dp"
-        android:background="@drawable/bluepetek"
-        android:fontFamily="sans-serif-smallcaps"
+        android:tag="14"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -236,9 +251,11 @@
         android:id="@+id/button19"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="368dp"
-        android:background="@drawable/bluepetek"
+        android:layout_marginBottom="280dp"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="19"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -247,12 +264,30 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/button24"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="368dp"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:tag="24"
+        android:textColor="#B1A11E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button29"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="452dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="29"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -265,78 +300,10 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="60dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#B1A11E"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="148dp"
-        android:background="@drawable/bluepetek"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#B1A11E"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="236dp"
-        android:background="@drawable/bluepetek"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#B1A11E"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="324dp"
-        android:background="@drawable/bluepetek"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#B1A11E"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button22"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="412dp"
-        android:background="@drawable/bluepetek"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textColor="#B1A11E"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button28"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="496dp"
-        android:background="@drawable/bluepetek"
-        android:fontFamily="sans-serif-smallcaps"
+        android:tag="2"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -348,9 +315,91 @@
         android:id="@+id/button6"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="104dp"
-        android:background="@drawable/bluepetek"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="6"
+        android:textColor="#B1A11E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="236dp"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:tag="11"
+        android:textColor="#B1A11E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="324dp"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:tag="16"
+        android:textColor="#B1A11E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="412dp"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:tag="21"
+        android:textColor="#B1A11E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="496dp"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:tag="26"
+        android:textColor="#B1A11E"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
+        android:fontFamily="sans-serif-smallcaps"
+        android:tag="5"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -359,12 +408,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/button10"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="192dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="10"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -373,12 +424,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/button15"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="280dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="15"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -387,12 +440,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/button20"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="368dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="20"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -401,12 +456,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/button25"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="452dp"
-        android:background="@drawable/bluepetek"
+        android:background="@drawable/graypetek"
+        android:enabled="false"
         android:fontFamily="sans-serif-smallcaps"
+        android:tag="25"
         android:textColor="#B1A11E"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -422,7 +479,7 @@
         android:text="@string/question"
         android:textColor="#B39331"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/button29"
+        app:layout_constraintBottom_toTopOf="@+id/button27"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
