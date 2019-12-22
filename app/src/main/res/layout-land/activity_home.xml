@@ -4,14 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#103992"
+    android:background="@android:color/holo_blue_dark"
     tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/credits_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/honeycomb3"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="312dp" />
 
     <ImageView
         android:id="@+id/start_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/petek1"
+        app:srcCompat="@drawable/honeycomb3"
         tools:layout_editor_absoluteX="36dp"
         tools:layout_editor_absoluteY="137dp" />
 
@@ -19,23 +27,16 @@
         android:id="@+id/options_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/petek1"
+        app:srcCompat="@drawable/honeycomb3"
         tools:layout_editor_absoluteX="186dp"
         tools:layout_editor_absoluteY="223dp" />
-
-    <ImageView
-        android:id="@+id/credits_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/petek1"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="312dp" />
 
     <ImageView
         android:id="@+id/exit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/petek1"
+        android:foreground="@drawable/honeycomb3"
+        app:srcCompat="@drawable/honeycomb3"
         tools:layout_editor_absoluteX="186dp"
         tools:layout_editor_absoluteY="398dp" />
 

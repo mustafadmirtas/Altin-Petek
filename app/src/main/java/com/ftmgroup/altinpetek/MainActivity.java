@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
     }
     //LOGO ANIMATION CREATE AND PLAY
     public void logoAnimation(){
-        ObjectAnimator animatorX = ObjectAnimator.ofFloat(logoImage, "y", 700f);
-        ObjectAnimator animatorY = ObjectAnimator.ofFloat(logoImage, "x", 420f);
+        ObjectAnimator animatorX = ObjectAnimator.ofFloat(logoImage, "y", 0f);
+        ObjectAnimator animatorY = ObjectAnimator.ofFloat(logoImage, "x", 0f);
         animatorX.setDuration(1000);
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.playTogether(animatorX,animatorY);

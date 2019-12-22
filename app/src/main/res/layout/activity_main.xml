@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0F447C"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="82dp"
-        android:layout_height="92dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:translationX="160dp"
         android:translationY="-600dp"
-        app:srcCompat="@mipmap/ic_launcher_round"
+        app:srcCompat="@drawable/logo2"
         tools:layout_editor_absoluteX="170dp"
         tools:layout_editor_absoluteY="330dp" />
 
