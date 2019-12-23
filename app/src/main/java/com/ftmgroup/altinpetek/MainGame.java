@@ -77,9 +77,9 @@ public class MainGame extends AppCompatActivity implements View.OnClickListener 
             i.putExtra("Level", (Integer) b.getTag());
             startActivity(i);
         } else {
-            //i.putExtra("QuestionType", "Random");
-            //i.putExtra("Level", (Integer) b.getTag());
-            //startActivity(i);
+            i.putExtra("QuestionType", "Random");
+            i.putExtra("Level", 0);
+            startActivity(i);
         }
     }
     public void syncHistory(){
