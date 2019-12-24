@@ -34,7 +34,7 @@ public class ProgressBarAnimation extends Animation {
 
         if(value == to && isOpened == false){
             //This Code for Close main activity and Open Home Activity only ONCE! BOOL THERE FOR ONCE. If you delete BOOL isOpened it opens twice
-            context.startActivity(new Intent(context,QuestionAdder.class));
+            context.startActivity(new Intent(context,HomeActivity.class));
             ((Activity)context).finish();
             isOpened = true;
         }
