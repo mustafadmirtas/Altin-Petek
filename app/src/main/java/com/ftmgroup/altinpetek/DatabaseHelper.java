@@ -171,4 +171,5 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             array.add(prefs.getString(arrayName + "_" + i, null));
         return array;
     }
+
 }
