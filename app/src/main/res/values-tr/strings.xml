@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AltinPetek</string>
+    <string name="app_name">Altın Petek</string>
     <string name="credits">YAPIMCILAR</string>
     <string name="exit">ÇIKIŞ</string>
     <string name="options">AYARLAR</string>
     <string name="start">BAŞLA</string>
     <string name="question">SORU SEÇ</string>
+    <string name="welcome">Hoşgeldiniz</string>
+    <string name="story" >Bu oyun bir genel kültür bilgi yarışması dır. Bu oyunda bilgileriniz test edebilir, yeni bilgiler öğrenebilirsiniz. Oyunun amacı peteğin tepesine soruları bilerek ulaşmaktır. 4 adet jokeriniz bulunmaktadır. Gümüş joker soruyu geçme hakkı tanır. Bronz joker ise bir yanlış yapma hakkı verir. İyi eğlenceler.</string>
+    <string name="design">Tasarım</string>
+    <string name="Code">Kodlayıcılar</string>
+    <string name="continue2">Devam Et</string>
+    <string name="Cong">Tebrikler</string>
+    <string name="youwon">Kazancınız</string>
+    <string name="again">Tekrar Oyna</string>
 </resources>

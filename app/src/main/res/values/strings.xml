@@ -1,8 +1,16 @@
 <resources>
-    <string name="app_name">GoldenComb</string>
+    <string name="app_name">Altın Petek</string>
     <string name="start">START</string>
     <string name="options">OPTIONS</string>
     <string name="credits">CREDITS</string>
     <string name="exit">EXIT</string>
     <string name="question">CHOOSE QUESTION</string>
+    <string name="welcome">Welcome</string>
+    <string name="story">This game is a general culture quiz. In this game you can test your knowledge, you can learn new information. The goal of the game is to reach the top of the honeycomb knowing the questions. You have 4 jokers. The silver joker gives the right to pass the question. The bronze joker gives the right to make a mistake. Have fun.</string>
+    <string name="Code">Coders</string>
+    <string name="design">Design</string>
+    <string name="continue2">Contınue</string>
+    <string name="Cong">Congratulations</string>
+    <string name="youwon">You Won</string>
+    <string name="again">Play Again</string>
 </resources>

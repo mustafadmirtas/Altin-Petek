@@ -12,6 +12,7 @@ import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity {
 
+    private SoundPlayer soundPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,9 @@ public class HomeActivity extends AppCompatActivity {
         // MAKE FULL SCREEN
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
+
+        soundPlayer = new SoundPlayer(this);
+
         Button buttonStart,buttonOptions,buttonCredits,buttonExit;
         buttonStart = findViewById(R.id.start_button);
         buttonOptions = findViewById(R.id.options_button);
@@ -30,24 +34,28 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 onClickButton(0);
+                soundPlayer.playClickSound();
             }
         });
         buttonOptions.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 onClickButton(1);
+                soundPlayer.playClickSound();
             }
         });
         buttonCredits.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 onClickButton(2);
+                soundPlayer.playClickSound();
             }
         });
         buttonExit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 onClickButton(3);
+                soundPlayer.playClickSound();
             }
         });
     }
@@ -61,8 +69,16 @@ public class HomeActivity extends AppCompatActivity {
                     Intent i = new Intent(HomeActivity.this,HelperActivity.class);
                     startActivity(i);
                 } else {
-                    Intent i = new Intent(HomeActivity.this,MainGame.class);
-                    startActivity(i);
+                    if (sharedPreferences.getInt("isQuestionState",0) == 0){
+                        Intent i = new Intent(HomeActivity.this,MainGame.class);
+                        startActivity(i);
+                    } else {
+                        Intent i = new Intent(HomeActivity.this,QuestionActivity.class);
+                        i.putExtra("QuestionType", sharedPreferences.getString("SubjectStart",null));
+                        i.putExtra("ButtonTag",sharedPreferences.getString("ButonTag",null));
+                        startActivity(i);
+                    }
+
                 }
                 break;
             case 1: // OptionsActivtiy

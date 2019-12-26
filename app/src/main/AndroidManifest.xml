@@ -9,14 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DatabaseHelper" android:screenOrientation="portrait" />
-        <activity android:name=".QuestionActivity" android:screenOrientation="portrait" />
-        <activity android:name=".CreditsActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".OptionsActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MainGame" android:screenOrientation="portrait"/>
-        <activity android:name=".HelperActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".HomeActivity" android:screenOrientation="portrait"/>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+        <activity android:name=".FinishActivity"></activity>
+        <activity
+            android:name=".DatabaseHelper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreditsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainGame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HelperActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -32,6 +32,7 @@ public class ProgressBarAnimation extends Animation {
         progressBar.setProgress((int) value);
         textView.setText((int)value + " %");
 
+
         if(value == to && isOpened == false){
             //This Code for Close main activity and Open Home Activity only ONCE! BOOL THERE FOR ONCE. If you delete BOOL isOpened it opens twice
             context.startActivity(new Intent(context,HomeActivity.class));

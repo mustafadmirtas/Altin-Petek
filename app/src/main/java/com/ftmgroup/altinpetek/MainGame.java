@@ -22,6 +22,7 @@ public class MainGame extends AppCompatActivity implements View.OnClickListener 
             /*24*/{23,29},/*25*/{26},/*26*/{27},/*27*/{27},/*28*/{27},/*29*/{28}};
     Button buttons[] = new Button[30];
     DatabaseHelper db = new DatabaseHelper(this);
+    SoundPlayer soundPlayer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,8 +31,8 @@ public class MainGame extends AppCompatActivity implements View.OnClickListener 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN); // this makes fullscreen game.
         getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
         createButtons();
-        historyOfSubjectReset();
         syncHistory();
+        soundPlayer = new SoundPlayer(this);
 
 
     }
@@ -74,6 +75,7 @@ public class MainGame extends AppCompatActivity implements View.OnClickListener 
 
     @Override
     public void onClick(View view) {
+        soundPlayer.playClickSound();
         // WHEN CLICK ONE BUTTON WE ARE SEND BUTTON TEXT ITS FOR SUBJECT OF QUESTION
         // AND WHICH LEVEL OF BUTTON IN TAGS FOR EX 2nd button TAG 2 LEVEL 2 QUESTION COMES ABOUT CLICKED SUBJECT
         Intent i = new Intent(MainGame.this,QuestionActivity.class);
@@ -86,7 +88,9 @@ public class MainGame extends AppCompatActivity implements View.OnClickListener 
             finish();
 
         } else {
-            i.putExtra("QuestionType", "Tren");
+            ArrayList<String> SubjectList = new ArrayList<String>();
+            SubjectList = db.getArrayPrefs("Subjects",this);
+            i.putExtra("QuestionType",SubjectList.get(new Random().nextInt(SubjectList.size())));
             i.putExtra("ButtonTag", "1");
             startActivity(i);
             finish();
@@ -98,17 +102,17 @@ public class MainGame extends AppCompatActivity implements View.OnClickListener 
             history = db.getArrayPrefs("History",this);
             int lastIndex=1;
 
-            for (int i =1; i<history.size(); i++){
-                  if(history.size() > 1){
+            for (int i =0; i<history.size(); i++){
+                  if(history.size() >= 1){
                   buttons[Integer.parseInt(history.get(i))].setBackground(getResources().getDrawable(R.drawable.greenpetek));
-                  buttons[Integer.parseInt(history.get(i))].setText("1000");
+                  buttons[Integer.parseInt(history.get(i))].setText(String.valueOf(1000 * i * i + 1000));
                   buttons[Integer.parseInt(history.get(i))].setEnabled(false);
                   lastIndex = Integer.parseInt(history.get(i));
                   }
             }
 
 
-            if(history.size() > 1){
+            if(history.size() >= 1){
                 randomSubjects(lastIndex);
             }
             else {
@@ -120,11 +124,19 @@ public class MainGame extends AppCompatActivity implements View.OnClickListener 
             ArrayList<String> SubjectList = new ArrayList<String>();
             SubjectList = db.getArrayPrefs("Subjects",this);
             int a[]= Road[lastIndex];
+            ArrayList<Integer> randomlist = new ArrayList<Integer>();
+
             for(int i = 0; i<a.length; i++){
+                int random = new Random().nextInt(SubjectList.size());
+                if(randomlist.contains(random)){
+                    random = new Random().nextInt(SubjectList.size());
+                }
                 buttons[a[i]].setBackground(getResources().getDrawable(R.drawable.bluepetek));
-                buttons[a[i]].setText(SubjectList.get(new Random().nextInt(SubjectList.size())));
+                buttons[a[i]].setText(SubjectList.get(random));
                 buttons[a[i]].setEnabled(true);
+                randomlist.add(random);
             }
+            randomlist.clear();
     }
     public void historyOfSubjectReset(){
 
@@ -133,6 +145,31 @@ public class MainGame extends AppCompatActivity implements View.OnClickListener 
         SubjectList.add("Spor");
         SubjectList.add("Roman");
         SubjectList.add("Para");
+        SubjectList.add("Felaket");
+        SubjectList.add("İl");
+        SubjectList.add("Müzik");
+        SubjectList.add("Sağlık");
+        SubjectList.add("Rakam");
+        SubjectList.add("Zaman");
+        SubjectList.add("Kutsal");
+        SubjectList.add("Tren");
+        SubjectList.add("Başkent");
+        SubjectList.add("Küpe");
+        SubjectList.add("Nüfus");
+        SubjectList.add("İlaç");
+        SubjectList.add("Futbol");
+        SubjectList.add("Marş");
+        SubjectList.add("Gezi");
+        SubjectList.add("Safari");
+        SubjectList.add("Turizm");
+        SubjectList.add("Bülbül");
+        SubjectList.add("Ankara");
+        SubjectList.add("Sürüngen");
+        SubjectList.add("İskandinavya");
+        SubjectList.add("Asal");
+        SubjectList.add("Uzay");
+        SubjectList.add("Safari");
+        SubjectList.add("Sözleşme");
         db.setArrayPrefs("Subjects",SubjectList,this);
     }
 }

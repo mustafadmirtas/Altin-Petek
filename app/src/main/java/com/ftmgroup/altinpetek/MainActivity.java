@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView logoImage;
     ProgressBar progressBar;
     TextView textView;
-
+    SoundPlayer soundPlayer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
